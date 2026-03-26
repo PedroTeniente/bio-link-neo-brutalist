@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thunder | NOVA.AI</title>
+    <!-- Google Fonts for Ultra Bold and Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <!-- Header -->
+        <header class="profile">
+            <div class="avatar-flip-container">
+                <div class="avatar-flipper">
+                    <div class="avatar-front">
+                        <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Thunder&backgroundColor=f5f5dc" alt="Thunder Avatar" class="avatar-img">
+                    </div>
+                    <div class="avatar-back">
+                        <!-- Guarda la foto que me acabas de enviar en la carpeta como "foto-dorso.jpg" para que se muestre aquí -->
+                        <img src="foto-dorso.jpg" alt="Thunder Avatar Volteado" class="avatar-img">
+                    </div>
+                </div>
+            </div>
+            <h1 class="name">Thunder</h1>
+            <p class="bio">"Generamos una experiencia para el mundo digital"</p>
+        </header>
+
+        <!-- Links -->
+        <section class="links">
+            <!-- Link 1: Toolkit -->
+            <form id="toolkit-form" class="brutalist-card">
+                <div class="card-header">
+                    <h2>Toolkit de AI Gratis</h2>
+                    <span class="tag neon-green">Gratis</span>
+                </div>
+                <p class="subtext">"Las herramientas y prompts que uso a diario"</p>
+                <div class="input-group">
+                    <input type="email" placeholder="Tu mejor correo..." required>
+                    <button type="submit" class="btn btn-violet">Descargar</button>
+                </div>
+                <!-- Success message hidden by default -->
+                <p class="success-msg hidden">¡Redirigiendo a la descarga...!</p>
+            </form>
+
+            <!-- Link 2: Newsletter -->
+            <form id="newsletter-form" class="brutalist-card">
+                <h2>Newsletter Privada</h2>
+                <p class="subtext">"Casos reales, sistemas y automatizaciones"</p>
+                <div class="input-group">
+                    <input type="email" placeholder="Tu mejor correo..." required>
+                    <button type="submit" class="btn btn-blue">Suscribirse</button>
+                </div>
+                <small class="note">"1 email por semana. Cero spam."</small>
+                <!-- Success message hidden by default -->
+                <p class="success-msg hidden">¡Suscrito correctamente!</p>
+            </form>
+
+            <!-- Link 3: Redes -->
+            <div class="brutalist-card social-card" id="mis-redes">
+                <h2>Mis redes</h2>
+                <div class="social-grid">
+                    <a href="https://www.linkedin.com" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com" target="_blank" class="social-btn"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.tiktok.com" target="_blank" class="social-btn"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Services -->
+        <section class="cta-services">
+            <div class="brutalist-card services-card">
+                <h2>Consultoría y sistemas de IA a medida</h2>
+                <a href="#" class="btn btn-block">VER SERVICIOS →</a>
+            </div>
+        </section>
+
+        <!-- Social Proof -->
+        <section class="social-proof">
+            <div class="proof-box">+50k<br><span>seguidores</span></div>
+            <div class="proof-box">+20<br><span>negocios autom.</span></div>
+            <div class="proof-box">6<br><span>países</span></div>
+        </section>
+    </main>
+
+    <!-- Final CTA full width strip -->
+    <section class="final-cta bg-blue">
+        <div class="container" style="text-align: center;">
+            <h2>"La IA no es contenido.<br>Es ventaja competitiva."</h2>
+            <a href="#" class="btn btn-neon-green btn-large" style="margin-top: 1.5rem; max-width: 300px; padding: 1rem;">EMPEZAR HOY →</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>THUNDERAI. 2026</p>
+        <div class="footer-links">
+            <a href="#">Privacidad</a> &nbsp; - &nbsp; <a href="#">Contacto</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
